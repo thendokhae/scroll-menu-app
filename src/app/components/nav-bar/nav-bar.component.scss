@@ -5,6 +5,16 @@
   background-color: rgba(255,255,255,0.96);
 }
 
+.menu-item {
+  height: 24px;
+  color: #232323;
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+  text-align: center;
+}
+
 .search {
   position: absolute;
   top: 22px;
@@ -24,13 +34,8 @@
   background-color: #FFC000;
 }
 
-.top-nav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+a {
   text-decoration: none;
-  font-size: 17px;
 }
 
 #progressbar {
@@ -45,12 +50,183 @@
 
 @media only screen and (max-width: 1080px) {
   //.home {background: red;}
+  .dropdown-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .oval {
+    display: none;
+  }
+
+  .store {
+    display: none;
+  }
+
+  .products-and-services {
+    display: none;
+  }
+
+  .help-and-support {
+    display: none;
+  }
+
+  .pill-button {
+    display: none;
+  }
 }
 
-@media only screen and (min-width: 1080px) {
-  //.home {background: blue;}
+@media only screen and (min-width: 1081px) {
+  .menu {
+    display: none;
+  }
+
+  .search {
+    right: 341px;
+  }
+
+  .pill-button {
+    position: absolute;
+    top: 18px;
+    right: 171px;
+    box-sizing: border-box;
+    height: 22px;
+    width: 131px;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    box-shadow: inset 0 2px 8px 0 rgba(0,0,0,0.16);
+  }
+
+  .personal {
+    position: absolute;
+    top: -5px;
+    left: 6px;
+    height: 16px;
+    width: 48px;
+    color: #414141;
+    font-family: "Work Sans";
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .business {
+    position: absolute;
+    top: -5px;
+    left: 62px;
+    height: 16px;
+    width: 48px;
+    color: #AFAFAF;
+    font-family: "Work Sans";
+    font-size: 8px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .store {
+    position: absolute;
+    width: 48px;
+    top: 22px;
+    left: 304px;
+  }
+
+  .products-and-services {
+    position: absolute;
+    width: 160px;
+    top: 22px;
+    left: 392px;
+  }
+
+  .help-and-support {
+    position: absolute;
+    width: 120px;
+    top: 22px;
+    left: 592px;
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .oval {
+    display: none;
+  }
 }
 
-@media only screen and (min-width: 1500px) {
-  //.home {background: pink;}
+@media only screen and (min-width: 1441px) {
+
+  .oval {
+    position: absolute;
+    right: 476px;
+    top: 26px;
+    height: 8px;
+    width: 8px;
+    background-color: #FFC300;
+    border-radius: 8px;
+  }
+
+  .pill-button {
+    display: none;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    right: 388px;
+    top: 14px;
+    height: 24px;
+    width: 80px;
+    color: #191919;
+    font-family: "Work Sans";
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    position: absolute;
+    right: 372px;
+    top: 20px
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .search {
+    right: 539px;
+  }
+
+  .store {
+    position: absolute;
+    width: 48px;
+    top: 22px;
+    left: 516px;
+  }
+
+  .products-and-services {
+    position: absolute;
+    width: 160px;
+    top: 22px;
+    left: 604px;
+  }
+
+  .help-and-support {
+    position: absolute;
+    width: 120px;
+    top: 22px;
+    left: 804px;
+  }
+
 }

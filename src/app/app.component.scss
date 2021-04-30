@@ -9,3 +9,20 @@ img {
   width: 73.33px;
   height: 73.33px;
 }
+
+
+@media only screen and (max-width: 1080px) {
+  //.home {background: red;}
+}
+
+@media only screen and (min-width: 1081px) {
+  img {
+    left: 168px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  img {
+    left: 372px;
+  }
+}
