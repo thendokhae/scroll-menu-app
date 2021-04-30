@@ -3,7 +3,6 @@
   padding-top: 96px;
   padding-bottom: 72px;
   height: 556px;
-  width: 368px;
   border: 2px solid rgba(150,150,150,0.08);
   border-radius: 16px 16px 12px 12px;
   background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
@@ -36,4 +35,20 @@
 
 .centre-link {
   text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container {
+    width: 368px;
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .container {
+    width: 424px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  //.home {background: pink;}
 }
