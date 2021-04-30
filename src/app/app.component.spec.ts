@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'slider-menu'`, () => {
+  it(`should have as title 'scroll-menu-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('slider-menu');
+    expect(app.title).toEqual('scroll-menu-app');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to slider-menu!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to scroll-menu-app!');
   });
 });

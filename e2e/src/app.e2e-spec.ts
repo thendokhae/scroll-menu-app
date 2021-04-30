@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to slider-menu!');
+    expect(page.getTitleText()).toEqual('Welcome to scroll-menu-app!');
   });
 
   afterEach(async () => {
