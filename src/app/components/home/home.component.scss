@@ -1,0 +1,133 @@
+.home {
+  height: 100vh;
+  position: relative;
+}
+
+.left-arrow{
+  position: absolute;
+  left: 220px;
+  top: 600px;
+  font-size: 40px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 220px;
+  top: 600px;
+  font-size: 40px;
+}
+
+
+.scroll-menu {
+  overflow: auto;
+  white-space: nowrap;
+  padding-top: 120px;
+  padding-bottom: 108px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  width: 152px;
+  height: 80px;
+  color: #232323;
+  position: absolute;
+  left: 186px;
+  top: 160px;
+  font-family: "Work Sans";
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.scroll-menu > * {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.item {
+  display: inline-block;
+  margin-top: 140px;
+}
+
+.big-item {
+  display: inline-block;
+}
+
+.composition {
+  width: 1080px;
+  height: 100vh;
+  background-image:
+    linear-gradient(to right, #FF0000, #FF0000),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+    linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+    linear-gradient(to right, #FF0000, #FF0000),
+    none;
+  background-repeat: no-repeat;
+  background-position:
+    0 0,
+    164px 0,
+    244px 0,
+    260px 0,
+    340px 0,
+    356px 0,
+    436px 0,
+    452px 0,
+    532px 0,
+    548px 0,
+    628px 0,
+    644px 0,
+    724px 0,
+    740px 0,
+    820px 0,
+    836px 0,
+    916px 0,
+    1080px 0,
+    0 0;
+  background-size:
+    164px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    16px 100%,
+    80px 100%,
+    164px 100%,
+    100% 100%;
+}
+
+@media only screen and (max-width: 1080px) {
+  //.home {background: red;}
+}
+
+@media only screen and (min-width: 1080px) {
+  //.home {background: blue;}
+}
+
+@media only screen and (min-width: 1500px) {
+  //.home {background: pink;}
+}

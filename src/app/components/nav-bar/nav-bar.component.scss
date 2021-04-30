@@ -1,0 +1,56 @@
+.top-nav {
+  position: relative;
+  overflow: hidden;
+  height: 64px;
+  background-color: rgba(255,255,255,0.96);
+}
+
+.search {
+  position: absolute;
+  top: 22px;
+  right: 220px;
+  font-size: 18px;
+}
+
+.menu {
+  position: absolute;
+  top: 22px;
+  right: 164px;
+}
+
+.bar {
+  height: 8px;
+  width: 96px;
+  background-color: #FFC000;
+}
+
+.top-nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#progressbar {
+  background-color: #232323;
+}
+
+#progressbar>div {
+  background-color: #FFC000;
+  height: 8px;
+  width: 96px;
+}
+
+@media only screen and (max-width: 1080px) {
+  //.home {background: red;}
+}
+
+@media only screen and (min-width: 1080px) {
+  //.home {background: blue;}
+}
+
+@media only screen and (min-width: 1500px) {
+  //.home {background: pink;}
+}
