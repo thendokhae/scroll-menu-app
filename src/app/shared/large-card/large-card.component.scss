@@ -21,7 +21,7 @@
 }
 
 .title {
-  padding: 100px 24px 72px 24px;
+  padding: 100px 0 72px 0;
   height: 40px;
   width: 320px;
   color: #232323;
@@ -30,11 +30,15 @@
   font-weight: 600;
   letter-spacing: -0.2px;
   line-height: 58px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 .centre-link {
   text-align: center;
+  color: #232323;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -49,6 +53,19 @@
   }
 }
 
-@media only screen and (min-width: 1500px) {
-  //.home {background: pink;}
+@media only screen and (min-width: 1441px) {
+  .container {
+    border: 2px solid rgba(150,150,150,0.08);
+    border-radius: 16px 16px 12px 12px;
+    background: linear-gradient(180deg, #373737 0%, #191919 100%);
+    border-bottom: 8px solid #FFC000;
+  }
+
+  .title {
+     color: #F5F5F5;
+  }
+
+  .centre-link {
+    color: #F5F5F5;
+  }
 }

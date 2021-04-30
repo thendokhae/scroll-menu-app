@@ -1,47 +1,60 @@
+.home {
+  height: 100vh;
+  position: relative;
+}
+
+.scroll-menu {
+  overflow: auto;
+  white-space: nowrap;
+  padding-top: 160px;
+  padding-bottom: 196px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  height: 80px;
+  color: #232323;
+  position: absolute;
+  left: 284px;
+  top: 184px;
+  font-family: "Work Sans";
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.left-arrow{
+  position: absolute;
+  font-size: 40px;
+}
+
+.right-arrow {
+  position: absolute;
+  font-size: 40px;
+}
+
 @media only screen and (max-width: 1080px) {
-  .home {
-    height: 100vh;
-    position: relative;
-  }
 
   .left-arrow{
-    position: absolute;
     left: 220px;
     top: 600px;
-    font-size: 40px;
   }
 
   .right-arrow {
-    position: absolute;
     right: 220px;
     top: 600px;
-    font-size: 40px;
   }
 
 
   .scroll-menu {
-    overflow: auto;
-    white-space: nowrap;
-    padding-top: 120px;
-    padding-bottom: 108px;
     width: 1320px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .caption {
     width: 152px;
-    height: 80px;
-    color: #232323;
-    position: absolute;
-    left: 186px;
-    top: 160px;
-    font-family: "Work Sans";
-    font-size: 24px;
-    letter-spacing: -0.2px;
-    line-height: 28px;
-    word-wrap: break-word;
   }
 
   .scroll-menu > * {
@@ -124,49 +137,23 @@
 }
 
 @media only screen and (min-width: 1081px) {
-  .home {
-    height: 100vh;
-    position: relative;
-  }
-
   .left-arrow{
-    position: absolute;
     left: 364px;
     top: 640px;
-    font-size: 40px;
   }
 
   .right-arrow {
-    position: absolute;
     right: 364px;
     top: 640px;
-    font-size: 40px;
   }
 
 
   .scroll-menu {
-    overflow: auto;
-    white-space: nowrap;
-    padding-top: 160px;
-    padding-bottom: 196px;
-    display: flex;
     width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .caption {
     width: 200px;
-    height: 80px;
-    color: #232323;
-    position: absolute;
-    left: 284px;
-    top: 184px;
-    font-family: "Work Sans";
-    font-size: 24px;
-    letter-spacing: -0.2px;
-    line-height: 28px;
-    word-wrap: break-word;
   }
 
   .scroll-menu > :first-child {
@@ -280,6 +267,134 @@
   }
 }
 
-@media only screen and (min-width: 1500px) {
-  //.home {background: pink;}
+@media only screen and (min-width: 1441px) {
+  .left-arrow{
+    left: 580px;
+    top: 664px;
+    color: #FFC000;
+  }
+
+  .right-arrow {
+    right: 580px;
+    top: 664px;
+  }
+
+
+  .scroll-menu {
+    width: 1416px;
+  }
+
+  .caption {
+    width: 216px;
+  }
+
+  .scroll-menu > :first-child {
+    margin-right: 12px;
+  }
+
+  .scroll-menu > :last-child {
+    margin-left: 12px;
+  }
+
+  .scroll-menu > *:not(:first-child):not(:last-child) {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .item {
+    display: inline-block;
+    margin-top: 140px;
+  }
+
+  .big-item {
+    display: inline-block;
+  }
+
+  .composition {
+    width: 1920px;
+    height: 100vh;
+    background-image:
+            linear-gradient(to right, #FF0000, #FF0000),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, rgb(5, 50, 65, 32), rgb(5, 50, 65, 32) ),
+            linear-gradient(to right, rgb(245, 245, 245, 48), rgb(245, 245, 245, 48) ),
+            linear-gradient(to right, #FF0000, #FF0000),
+            none;
+    background-repeat: no-repeat;
+    background-position:
+            0 0,
+            252px 0,
+            348px 0,
+            372px 0,
+            468px 0,
+            492px 0,
+            588px 0,
+            612px 0,
+            708px 0,
+            732px 0,
+            828px 0,
+            852px 0,
+            948px 0,
+            972px 0,
+            1068px 0,
+            1092px 0,
+            1188px 0,
+            1212px 0,
+            1308px 0,
+            1332px 0,
+            1428px 0,
+            1452px 0,
+            1548px 0,
+            1572px 0,
+            1668px 0,
+            1920px 0,
+            0 0;
+    background-size:
+            252px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            24px 100%,
+            96px 100%,
+            252px 100%,
+            100% 100%;
+  }
 }
